@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image:url('https://img.freepik.com/premium-vector/network-connection-background-abstract-style_23-2148875738.jpg');
+    display: flex;
+    background-size: cover;
+    height: 100vh;
+}
+.section{
+    width: 50%;
+    padding: 5rem;
+    color:white;
+    font-style: italic;
+    column-gap: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.heading{
+    font-size:3rem;
+}
+.aside{
+    width: 50%;
+    padding: 3rem;
+}
+.Form{
+    background-image: url('https://img.freepik.com/premium-vector/blue-polygon-dark-background-square-social-template-vector_53876-170115.jpg');
+    background-size: cover;
+    height: 85vh;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #0000ff, #ff0000);
+    border-image-slice: 1;
+     padding-left: 1rem;
+     padding-right: 1rem;
+}
+.input{
+    width: 70%;
+    height: 1.5rem;
+    border-radius: 4px;
+    outline: none;
+    border-color: aqua;
+    font-size: medium;
+}
+.button{
+    background-color:whitesmoke;
+    width: 30%;
+    height: 35px;
+    border: none;
+    border-radius: 0.5rem;
+    margin-left: 8rem;
+    font-weight: 800;
+}
+.label{
+    font-weight: bold;
+    color: rgb(255, 254, 255);
+}
+.select{
+    display: flex;
+    gap: 1rem;
+}
+.gender{
+    display: flex;
+    gap: 1rem;
+    font-size: medium;
+    color: white;
+}
+img{
+    width: 50%;
+}
+.agree{
+    color: white;
+}
+span{
+    color:red
+}
+.password-toggle{
+    color: white;
+}
